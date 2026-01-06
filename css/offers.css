@@ -55,6 +55,9 @@
   background: url(../img/bg-card-manaus.png) no-repeat;
   background-size: cover;
 }
+.offers {
+  margin-bottom: 104px;
+}
 
 @media screen and (min-width: 768px) {
   .offers-cards {
