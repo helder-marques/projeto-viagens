@@ -15,9 +15,9 @@
 
 @media (min-width: 768px) {
   .hero-img {
-    height: 620px;
     background: url("../img/Banner\ tablet\ \(2\).jpg") no-repeat;
     background-size: cover;
+    height: 600px;
   }
   .hero h2 {
     padding: 88px 60px;
