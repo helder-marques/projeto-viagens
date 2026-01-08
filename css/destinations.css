@@ -3,13 +3,13 @@
   flex-direction: column;
   justify-content: center;
 }
-.item p {
+.destinations .item p {
   margin: 24px 0;
-  line-height: 1.5;
 }
-.item h4 {
-  font-size: 24px;
+.destinations .item header h4 {
+  margin: 24px 0;
 }
+
 .button {
   min-width: 280px;
 }
