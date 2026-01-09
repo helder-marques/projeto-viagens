@@ -1,23 +1,37 @@
-.hero-img {
+.hero .hero-img,
+.bottom-hero .hero-img {
   width: 100%;
   height: 400px;
-  background: url("../img/Banner\ homepage\ \(1\).jpg") no-repeat;
+}
+.hero .hero-img {
+  background: url("/img/Banner\ homepage\ \(1\).jpg") no-repeat;
   background-size: cover;
+}
+.bottom-hero {
+  background: url("/img/rodape-mobile.png") no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 0;
 }
 .hero h2 {
   padding: 88px 24px;
   margin: 0;
   font-weight: var(--text-weight);
   font-size: 20px;
-  text-align: center;
   line-height: 1.5;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
-  .hero-img {
-    background: url("../img/Banner\ tablet\ \(2\).jpg") no-repeat;
+  .hero .hero-img {
+    background: url("/img/Banner\ tablet\ \(2\).jpg") no-repeat;
     background-size: cover;
     height: 600px;
+  }
+  .bottom-hero .hero-img {
+    height: 600px;
+    background: url("/img/rodape-tablet.png");
+    background-size: cover;
   }
   .hero h2 {
     padding: 88px 60px;
@@ -32,6 +46,11 @@
   }
   .hero h2 {
     padding: 88px 120px;
+  }
+  .bottom-hero .hero-img {
+    height: 600px;
+    background: url("../img/rodape-desktop.png") no-repeat;
+    background-size: cover;
   }
 }
 
