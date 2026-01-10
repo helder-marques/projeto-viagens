@@ -25,6 +25,20 @@
 .payments .image-gallery .image.colspan-2 {
   grid-column: span 2;
 }
+.travel-payments.payments .image-gallery .image.first {
+  background: url("/img/pagamento-img-1.png") no-repeat;
+  background-size: cover;
+}
+
+.travel-payments.payments .image-gallery .image.second {
+  background: url("/img/pagamento-img-2.png") no-repeat;
+  background-size: cover;
+}
+
+.travel-payments.payments .image-gallery .image.third {
+  background: url("/img/pagamento-img-3.png") no-repeat;
+  background-size: cover;
+}
 
 @media screen and (min-width: 768px) {
   .payments .image-gallery .image.first {
@@ -41,12 +55,26 @@
     background: url("../img/people.png") no-repeat;
     background-size: cover;
   }
+  .travel-payments.payments .image-gallery .image.first {
+    background: url("/img/pagamento-img-1.png") no-repeat;
+    background-size: cover;
+  }
+
+  .travel-payments.payments .image-gallery .image.second {
+    background: url("/img/pagamento-img-2.png") no-repeat;
+    background-size: cover;
+  }
+
+  .travel-payments.payments .image-gallery .image.third {
+    background: url("/img/pagamento-img-3.png") no-repeat;
+    background-size: cover;
+  }
 }
 @media screen and (min-width: 1440px) {
   .payments .text-content {
     width: 360px;
   }
-  
+
   .payments .image-gallery {
     margin: 0;
     width: 790px;
